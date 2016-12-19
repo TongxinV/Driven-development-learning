@@ -1,20 +1,27 @@
 # Driven-development-learning
-[toc]
+考虑这样的目录结构：
+
+    project
+        ├── widget
+        │   ├── a
+        │   │   ├── a.css
+        │   │   ├── a.js
+        │   │   └── a.php
+        │   ├── b
+        │   │   ├── b.css
+        │   │   ├── b.js
+        │   │   └── b.php
+        │   └── c
+        │       ├── c.css
+        │       ├── c.js
+        │       └── c.php
+        ├── bootstrap.css
+        ├── bootstrap.js
+        ├── index.php
+        └── jquery.js
 
 
-##f
+为什么：
 
-####kkflk
-
-##k
-
-####fkfk 
-
- ```sequence
- 
-Title:连接建立的过程
-客户主机->服务器主机: 连接请求（SYN=1,seq=client_isn） 
-服务器主机->客户主机: 授予连接（SYN=1,seq=client_isn）\n ack=client_isn+1
-客户主机->服务器主机: 确认（SYN=0,seq=client_isn+1）\nack=server_isn+1
-
- ```
+    雕刻技法l
+        快乐记得了
