@@ -1,4 +1,22 @@
-##题目待定
+##UBOOT
+
+获取uboot源码包，解压，配置``make xxx_config`` `` 交叉编译工具事先要装好并检查Makefile的交叉编译工具的名称是否正确``make 编译得到uboot.bin
+
+###uboot根目录下的各个文件的含义
+......
+
+###uboot配置和编译过程详解<先看地图 再看源代码>
+``mkconfig脚本`` ``Makefile文件``
+结构：
+
+    <主Makefile分析>
+        ├── 1. U_BOOT_VERSION
+        ├── 2. HOSTARCH和HOSTOS  主机架构（i386）和操作系统（linux）  得出来干嘛用？
+        ├── 3. 静默编译
+        ├── 4. 指定文件夹编译 BUILD_DIR = ...
+        ├── 5. export OBJTREE SRCTREE TOPDIR MKCONFIG := $(SRCTREE)/mkconfig
+        ├── 6. include $(obj)
+
 ###uboot源码分析
 flags:JiuDing移植的uboot
 
@@ -79,8 +97,6 @@ flags:JiuDing移植的uboot
 1. 将内核镜像从启动介质加载到DDR中，执行`do_bootm`函数
 2. 启动内核并同时传递参数给内核
  
-
-
 
 
 
