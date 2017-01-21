@@ -16,10 +16,10 @@ GitHub上不支持[TOC]
 ###F1
 ###F2
 ```
-##mulu
-* [First](##First)
-    * [111](###F1)
-    * [222](###F2)
+##目录
+* [First](#First)
+    * [111](#F1)
+    * [222](#F2)
 * [Second](#Second)
     * [111](#S1)
     * [222](#S2)
@@ -52,8 +52,8 @@ GitHub上不支持[TOC]
 
 
 
-##First
-
+First
+---
 ###F1
 
 ###F2
