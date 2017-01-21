@@ -1,7 +1,8 @@
-GitHub上的markdown格式一些比较好用的示例
+GitHub上的markdown格式一些利于排版的用法
 =======================================
-> 具体的参考[果冻虾仁的文章]（https://github.com/guodongxiaren/README）
+> 想全面了解的可以参考[果冻虾仁的文章]（https://github.com/guodongxiaren/README）
 
+##目录的实现
 GitHub上不支持[TOC]
 
 想要目录可以这样实现
@@ -57,7 +58,8 @@ GitHub上不支持[TOC]
 
 
 First
----------------
+-----------
+
 ###F1
 
 ###F2
