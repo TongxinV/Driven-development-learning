@@ -1,4 +1,4 @@
-# GitHub上的markdown格式一些示例示
+# GitHub上的markdown格式一些比较好用的示例
 > 具体的参考[果冻虾仁的文章]（https://github.com/guodongxiaren/README）
 
 GitHub上不支持[TOC]
@@ -17,9 +17,9 @@ GitHub上不支持[TOC]
 ###F2
 ```
 ##mulu
-* [First](#First)
-    * [111](#F1)
-    * [222](#F2)
+* [First](##First)
+    * [111](###F1)
+    * [222](###F2)
 * [Second](#Second)
     * [111](#S1)
     * [222](#S2)
@@ -67,6 +67,7 @@ GitHub上不支持[TOC]
 测试：
 `第一行<br>第二行`
 
+现象：
 第一行<br>第二行
 
 
