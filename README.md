@@ -82,7 +82,7 @@ First
 第一行<br>第二行
 
 
-考虑这样的目录结构：
+## 程序结构：
 
     project
         ├── widget
@@ -103,11 +103,11 @@ First
         ├── index.php
         └── jquery.js
 
-# 前面空四个空格
+## 前面空四个空格
+
     雕刻技法l
-        快乐记得了
         
-# 流程图变横向
+## 流程图变横向
 
 ```flow
 op1=>operation: My Ope
