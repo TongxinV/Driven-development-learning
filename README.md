@@ -1,4 +1,5 @@
-# GitHub上的markdown格式一些比较好用的示例
+GitHub上的markdown格式一些比较好用的示例
+=======================================
 > 具体的参考[果冻虾仁的文章]（https://github.com/guodongxiaren/README）
 
 GitHub上不支持[TOC]
@@ -17,7 +18,7 @@ GitHub上不支持[TOC]
 ###F2
 ```
 ##目录
-* [横线](#First)
+* [First](#First)
 * [横线](#Second)
 
 ##目录
