@@ -17,7 +17,8 @@ GitHub上不支持[TOC]
 ###F2
 ```
 ##目录
-* [First](#First)
+* [横线](#First)
+* [横线](#Second)
 
 ##目录
 * [横线](#横线)
@@ -55,12 +56,12 @@ GitHub上不支持[TOC]
 
 
 First
----
+---------------
 ###F1
 
 ###F2
 
-##Second
+#Second
 ###S1
 ###S2
 
