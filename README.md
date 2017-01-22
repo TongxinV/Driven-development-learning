@@ -1,6 +1,6 @@
-GitHub上的markdown格式一些利于排版的用法，欢迎补充谈论
+GitHub上的markdown格式一些利于排版的用法
 =======================================
-> 想全面了解的可以参考[果冻虾仁的文章]（https://github.com/guodongxiaren/README）
+> 想全面了解的可以参考[果冻虾仁的文章]（https://github.com/guodongxiaren/README），欢迎补充谈论
 
 
 ##目录
