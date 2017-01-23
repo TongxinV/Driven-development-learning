@@ -108,6 +108,20 @@ op1(right)->op2(right)->op3
 ```
 
 
+另外补充流程图的一个完整示例：
+```
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+
+
 ```flow
 st=>start: Start
 e=>end
