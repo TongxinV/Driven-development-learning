@@ -6,7 +6,7 @@ GitHub上的markdown格式一些利于排版的用法
 ##目录
 * [目录的实现](#目录的实现)
 * [文字换行](#文字换行)
-* [程序结构](#程序结构)
+* [程序结构样式写法](#程序结构样式写法)
 * [前面空四个空格](#前面空四个空格)
 * [流程图变横向](#流程图变横向)
 
@@ -44,7 +44,7 @@ GitHub上不支持[TOC]
 第一行<br>第二行
 
 
-## 程序结构
+## 程序结构样式写法
 
     project
         ├── widget
@@ -67,9 +67,20 @@ GitHub上不支持[TOC]
 
 ## 前面空四个空格
 
-    雕刻技法l
+    前面空四个空格有类似于代码片段的效果
         
 ## 流程图变横向
+
+> 添加right或者left
+```
+op1=>operation: My Ope
+op2=>operation: My Ope
+op3=>operation: My Ope
+
+op1(right)->op2(right)->op3
+```
+
+
 
 ```flow
 op1=>operation: My Ope
