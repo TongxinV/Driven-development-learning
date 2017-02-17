@@ -15,7 +15,11 @@ GitHub上的markdown格式一些利于排版的用法
 
 #### 补充
 
-很有趣的一个链接[http://shields.io/](http://shields.io/)
+很有趣的链接：
+
+[http://shields.io/](http://shields.io/)
+
+[http://www.webpagefx.com/tools/emoji-cheat-sheet/](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 
 ## 目录的实现
