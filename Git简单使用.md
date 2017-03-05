@@ -3,6 +3,13 @@ Git简单使用
 
 > 参考文章[《在GitHub上管理项目》][2]
 
+
+* [与远程仓库建立链接](#与远程仓库建立链接)
+* [一般工作流程](#一般工作流程)
+* [git创建分支](#git创建分支)
+
+
+
 ###git初始化
 > 在使用git进行代码管理之前，首先要对git进行初始化
 
@@ -55,7 +62,7 @@ Git简单使用
     $ git pull origin master
 
 
-###正常的工作流程
+###一般工作流程
 
 > 配置都设置好了，且也不是第一次push
 
@@ -98,11 +105,21 @@ Git简单使用
     git pull origin master --allow-unrelated-histories 
 
 
+###git创建分支
 
+> 想具体了解的可以参考这篇文章：[《创建与合并分支》][3]
 
-
-
-
+```
+本地工程修改过，还没add，想把之前的作为一个新的分支：
+git branch -a //查看本地分支和远程分支
+git branch new-branch-name   //建立新分支，从master分出来的分支，具体看你在哪个分支
+git checkout new-branch-name    //切换到新分支
+git push --set-upstream origin new-branch-name  //这时到github相应的仓库可以看到新的分支且工程里面没有该动过的代码
+...
+git checkout master
+... //切换到主分支，然后add->commit->push
+```
 
 [1]:http://www.open-open.com/lib/view/open1423810370232.html
 [2]:http://www.cnblogs.com/mengdd/p/3447464.html
+[3]:http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000
