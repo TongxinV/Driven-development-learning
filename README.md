@@ -3,7 +3,8 @@ GitHub上的markdown格式一些利于排版的用法
 > 想全面了解的可以参考[果冻虾仁的文章](https://github.com/guodongxiaren/README)，欢迎补充谈论
 
 
-##目录
+## 目录
+
 * [目录的实现](#目录的实现)
 * [文字换行](#文字换行)
 * [程序结构样式写法](#程序结构样式写法)
@@ -18,6 +19,8 @@ GitHub上的markdown格式一些利于排版的用法
 很有趣的链接：
 
 [http://shields.io/](http://shields.io/)
+
+[https://github.com/guodongxiaren/README/blob/master/emoji.md](https://github.com/guodongxiaren/README/blob/master/emoji.md)
 
 [http://www.webpagefx.com/tools/emoji-cheat-sheet/](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
