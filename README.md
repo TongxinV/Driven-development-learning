@@ -144,9 +144,9 @@ cond(no)->op
 ## 内容居中(包括图片)
 
 ```
-使用标签 
-<center>居中内容</center> 
-将你希望居中的内容包含即可
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TongxinV/xxxx001/master/assets/p-sip-0001.gif" alt="p-sip-0001">
+</p>
 ```
 
 
