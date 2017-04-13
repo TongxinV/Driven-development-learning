@@ -148,6 +148,8 @@ cond(no)->op
   <img src="https://raw.githubusercontent.com/TongxinV/xxxx001/master/assets/p-sip-0001.gif" alt="p-sip-0001">
 </p>
 ```
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TongxinV/xxxx001/master/assets/p-sip-0001.gif" alt="p-sip-0001">
+</p>
 
 1111111
