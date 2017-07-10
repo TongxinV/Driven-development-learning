@@ -1,4 +1,4 @@
-Git简单使用
+ Git简单使用
 -----------------------
 
 > 参考文章[《在GitHub上管理项目》][2]
@@ -10,7 +10,7 @@ Git简单使用
 
 
 
-###git初始化
+### git初始化
 > 在使用git进行代码管理之前，首先要对git进行初始化
 
 设置名字和email,这些是你在提交commit时的签名，每次提交记录里都会包含这些信息
@@ -40,14 +40,14 @@ Git简单使用
             
 上面的配置文件就是Git全局配置的文件，一般配置方法是git config --global <配置名称> <配置的值>
 
-###本地新建repository
+### 本地新建repository
 > 可以本地建立文件夹再右键，也可以在git命令行下mkdir
 
 本地仓库初始化：
 
     $ git init
 
-###与远程仓库建立链接：
+### 与远程仓库建立链接：
 
 > 具体参考这篇文章[简单使用Git和Github来管理自己的代码和读书笔记][1]
 
@@ -62,7 +62,7 @@ Git简单使用
     $ git pull origin master
 
 
-###一般工作流程
+### 一般工作流程
 
 > 配置都设置好了，且也不是第一次push
 
@@ -77,7 +77,7 @@ Git简单使用
     . 使用git commit后再次使用git status，会发现当前的代码库已经没有待提交的文件，缓存区(Index)已经被清空
 
 
-###错误:fatal: The current branch master has no upstream branch
+### 错误:fatal: The current branch master has no upstream branch
 
 > 当前分支master没有上游分支
 
@@ -88,7 +88,7 @@ Git简单使用
     master(当前分支名称)
 
 
-###错误：error: failed to push some refs to 'git@github.com:TongxinV/git_test.git'
+### 错误：error: failed to push some refs to 'git@github.com:TongxinV/git_test.git'
 
 > 不能推送
 
@@ -105,7 +105,7 @@ Git简单使用
     git pull origin master --allow-unrelated-histories 
 
 
-###git创建分支
+### git创建分支
 
 > 想具体了解的可以参考这篇文章：[《创建与合并分支》][3]
 
